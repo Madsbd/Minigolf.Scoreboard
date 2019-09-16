@@ -6,12 +6,21 @@ body {
   font-family: "Gill Sans", sans-serif; }
   body h1 {
     color: white;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 36px; }
   body h2 {
     color: #2d2d2d;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 24px; }
+  body p, body input {
+    font-family: "Gill Sans", sans-serif;
+    color: #2d2d2d;
+    font-weight: 500;
+    font-size: 18px; }
+
+input {
+  width: 96%;
+  color: #2d2d2d; }
 
 /* HEADER */
 header {
@@ -129,5 +138,48 @@ header {
 .parTotal {
   grid-column: 2;
   grid-row: 11; }
+
+/* Grid Player Input Aligning (column three) */
+.inputOne {
+  grid-column: 3;
+  grid-row: 2; }
+
+.inputTwo {
+  grid-column: 3;
+  grid-row: 3; }
+
+.inputThree {
+  grid-column: 3;
+  grid-row: 4; }
+
+.inputFour {
+  grid-column: 3;
+  grid-row: 5; }
+
+.inputFive {
+  grid-column: 3;
+  grid-row: 6; }
+
+.inputSix {
+  grid-column: 3;
+  grid-row: 7; }
+
+.inputSeven {
+  grid-column: 3;
+  grid-row: 8; }
+
+.inputEight {
+  grid-column: 3;
+  grid-row: 9; }
+
+.inputNine {
+  grid-column: 3;
+  grid-row: 10; }
+
+.inputTotal {
+  grid-column: 3;
+  grid-row: 11;
+  font-weight: 600;
+  font-size: 24px; }
 
 /*# sourceMappingURL=main.css.map */
