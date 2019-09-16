@@ -2,4 +2,132 @@
   margin: 0;
   padding: 0; }
 
+body {
+  font-family: "Gill Sans", sans-serif; }
+  body h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 36px; }
+  body h2 {
+    color: #2d2d2d;
+    font-weight: 500;
+    font-size: 24px; }
+
+/* HEADER */
+header {
+  margin: 20px;
+  padding: 20px;
+  background-color: #2d2d2d; }
+
+/* Player Scoreboard */
+#playerScoreboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(11, 80px);
+  grid-gap: 2px;
+  margin: 20px;
+  background-color: #2d2d2d;
+  border: #2d2d2d solid 2px; }
+  #playerScoreboard * {
+    justify-self: stretch;
+    align-self: stretch;
+    background-color: white;
+    text-align: center;
+    line-height: 80px; }
+
+/* Grid Titles Aligning */
+.titleOne {
+  grid-column: 1;
+  grid-row: 1; }
+
+.titleTwo {
+  grid-column: 2;
+  grid-row: 1; }
+
+.titleThree {
+  grid-column: 3;
+  grid-row: 1; }
+
+/* Grid Holes Aligning (column one) */
+.holeOne {
+  grid-column: 1;
+  grid-row: 2; }
+
+.holeTwo {
+  grid-column: 1;
+  grid-row: 3; }
+
+.holeThree {
+  grid-column: 1;
+  grid-row: 4; }
+
+.holeFour {
+  grid-column: 1;
+  grid-row: 5; }
+
+.holeFive {
+  grid-column: 1;
+  grid-row: 6; }
+
+.holeSix {
+  grid-column: 1;
+  grid-row: 7; }
+
+.holeSeven {
+  grid-column: 1;
+  grid-row: 8; }
+
+.holeEight {
+  grid-column: 1;
+  grid-row: 9; }
+
+.holeNine {
+  grid-column: 1;
+  grid-row: 10; }
+
+.titleTotal {
+  grid-column: 1;
+  grid-row: 11; }
+
+/* Grid Par Aligning (column two) */
+.parOne {
+  grid-column: 2;
+  grid-row: 2; }
+
+.parTwo {
+  grid-column: 2;
+  grid-row: 3; }
+
+.parThree {
+  grid-column: 2;
+  grid-row: 4; }
+
+.parFour {
+  grid-column: 2;
+  grid-row: 5; }
+
+.parFive {
+  grid-column: 2;
+  grid-row: 6; }
+
+.parSix {
+  grid-column: 2;
+  grid-row: 7; }
+
+.parSeven {
+  grid-column: 2;
+  grid-row: 8; }
+
+.parEight {
+  grid-column: 2;
+  grid-row: 9; }
+
+.parNine {
+  grid-column: 2;
+  grid-row: 10; }
+
+.parTotal {
+  grid-column: 2;
+  grid-row: 11; }
+
 /*# sourceMappingURL=main.css.map */
