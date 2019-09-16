@@ -49,8 +49,30 @@
         <p class="parEight">2</p>
         <p class="parNine">3</p>
         <h2 class="parTotal"></h2>
+        <!-- Grid Table Player Input (column three) -->
+        <input class="inputOne input" type="number" value="">
+        <input class="inputTwo input" type="number" value="">
+        <input class="inputThree input" type="number" value="">
+        <input class="inputFour input" type="number" value="">
+        <input class="inputFive input" type="number" value="">
+        <input class="inputSix input" type="number" value="">
+        <input class="inputSeven input" type="number" value="">
+        <input class="inputEight input" type="number" value="">
+        <input class="inputNine input" type="number" value="">
+        <input class="inputTotal total" type="number">
+
     </section>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).on("keyup", ".input", function() {
+            var sum = 0;
+            $(".input").each(function(){
+                sum += +$(this).val();
+            });
+            $(".total").val(sum);
+        });
+    </script>
 </body>
 
 </html>
